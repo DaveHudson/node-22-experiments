@@ -1,0 +1,21 @@
+{
+  "name": "node22",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --import=tsx --env-file=.env index.ts --name Dave",
+    "dev": "node --import=tsx --env-file=.env --watch index.ts --name Dave",
+    "test": "node --import=tsx --test --watch *test.ts"
+  },
+  "author": "Dave Hudson",
+  "license": "ISC",
+  "description": "Experiemnting with Node 22",
+  "devDependencies": {
+    "@types/node": "^22.5.0"
+  },
+  "dependencies": {
+    "tsx": "^4.17.0",
+    "typescript": "^5.5.4"
+  }
+}
