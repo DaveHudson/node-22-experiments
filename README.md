@@ -1,4 +1,4 @@
-# Experiements with Node v22
+# Experiments with Node v22
 
 ## TypeScript Support
 
